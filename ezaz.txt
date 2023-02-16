@@ -1,0 +1,18 @@
+ {name: 'szilva', quantity: 35, price: 8},
+    {name: 'alma', quantity: 45, price: 8.3},
+    {name: 'körte', quantity: 25, price: 9.5},
+    {name: 'barack', quantity: 27, price: 12}
+
+<div class="container">
+        <h1>DOM generálása</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Név</th>
+                    <th>Mennyiség</th>
+                    <th>Ár</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
